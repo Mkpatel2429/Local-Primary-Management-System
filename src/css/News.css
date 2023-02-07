@@ -1,0 +1,28 @@
+/* New Update */
+.scroll-container {
+    border: 3px solid #154492;
+    border-radius: 5px;
+    height: 200px;
+    overflow: hidden;
+    width: 900px;
+    margin-top: 5%;
+    margin-left: 18%;
+    position: relative;
+  }
+  
+  div.scroll-text {
+    height: 100px;
+    text-align: left;
+    margin: 3%;
+    padding: 3%;
+    
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    
+    /* -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite; */
+    animation: my-animation 15s linear infinite;
+  }
+  

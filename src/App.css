@@ -28,6 +28,51 @@
   color: #61dafb;
 }
 
+.show{
+  display: block;
+  transition: 800ms;
+  opacity: 1;
+}
+.show.active{
+  transform: translateY(100px) scale(0) rotateY(180Deg);
+  opacity: 0;
+}
+
+#news-scroller {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+
+/* New Update */
+.scroll-container {
+  border: 3px solid #000000;
+  border-radius: 5px;
+  height: 200px;
+  overflow: hidden;
+  width: 900px;
+  margin-top: 5%;
+  margin-left: 18%;
+  position: relative;
+}
+
+div.scroll-text {
+  height: 100px;
+  text-align: left;
+  margin: 3%;
+  padding: 3%;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
