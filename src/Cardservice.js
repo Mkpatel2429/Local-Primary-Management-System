@@ -13,7 +13,7 @@ function Cardservice() {
                     <img className="card-img-top" src={image1} alt="Electricity Service"/>
   
                     <div className="card-body">
-                        <h5 className="card-title">Electicity Service</h5>
+                        <h5 className="card-title"style={{color:"black"}}>Electicity Service</h5>
                         <p className="card-text">
                             Some quick example text to build on 
                             the card title and make up the bulk 
@@ -27,7 +27,7 @@ function Cardservice() {
                     <img className="card-img-top" src={image4} alt="Water Service"/>
   
                     <div className="card-body">
-                        <h5 className="card-title">Water Service</h5>
+                        <h5 className="card-title" style={{color:"black"}}>Water Service</h5>
                         <p className="card-text">
                             Some quick example text to build on the 
                             card title and make up the bulk of the 

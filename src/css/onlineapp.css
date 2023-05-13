@@ -1,0 +1,56 @@
+.service {
+    background-color: #fff;
+    padding-top: 80px;
+}
+
+.service .service_box {
+    margin-bottom: 30px;
+}
+
+.service .service_box img {
+    display: block;
+}
+
+.service .service_box h3 {
+    margin-top: 20px;
+    color: #323639;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-bottom: #020001 solid 3px;
+    display: inline-block;
+    padding-bottom: 6px;
+    transition: ease-in all 0.5s;
+}
+
+.service .service_box p {
+    color: #323639;
+    font-size: 17px;
+    padding-top: 15px !important;
+    padding: 0;
+    line-height: 25px;
+}
+
+#ho_color:hover.service_box h3 {
+    transition: ease-in all 0.5s;
+    color: #f2db18;
+    border-bottom: #f2db18 solid 3px;
+}
+
+.service .read_more {
+    color: #f2db18 !important;
+    margin: 0 auto;
+    max-width: 140px;
+    width: 100%;
+    display: block;
+    display: table;
+    margin-top: 40px;
+}
+
+.service .read_more::before {
+    border-right: #f2db18 solid 1px;
+    border-right-width: 1px;
+    border-width: 90px;
+}
+

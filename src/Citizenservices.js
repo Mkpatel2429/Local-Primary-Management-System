@@ -7,8 +7,15 @@ import image5 from './Images/reading.png'
 import image6 from './Images/planning.png'
 
 
+
 class Citizenservices extends Component {
-render(){
+constructor(props){
+   super(props);
+   this.state={
+      loading:false
+   }
+}
+   render(){
   return (
     <div>
         <div id="service" className="service">
@@ -24,7 +31,7 @@ render(){
             <div className="col-md-4 col-sm-6">
                <div id="ho_color" className="service_box">
                   <img className='w-25 p-3'src={image1} alt="#"/>
-                  <a href="form.html"><h3>Forms</h3></a>
+                  <a href="/Citizenservices/Complainform"><h3 color='blue'>Forms</h3></a>
                   <p>Forms are available to connect with the organisations easily
                   </p>
                </div>
@@ -32,7 +39,7 @@ render(){
             <div className="col-md-4 col-sm-6">
                <div id="ho_color" className="service_box">
                   <img className='w-25 p-3' src={image2} alt="#" />
-                  <a href="service.html"><h3>Online Application</h3></a>
+                  <a href="/Citizenservices/Onlineapplication"><h3>Online Application</h3></a>
                   <p>E-Forms are available to connect with the organisations easily
                   </p>
                </div>
@@ -40,7 +47,7 @@ render(){
             <div className="col-md-4 col-sm-6">
                <div id="ho_color" className="service_box">
                   <img className='w-25 p-3' src={image3} alt="#" />
-                  <a href="document.html"><h3>Documents</h3></a>
+                  <a href="/Citizenservices/Documents"><h3>Documents</h3></a>
                   <p>Anything and everything possible on your system through this website</p>
                </div>
             </div>
@@ -55,14 +62,14 @@ render(){
             <div className="col-md-4 col-sm-6">
                <div id="ho_color" className="service_box">
                   <img className='w-25 p-3' src={image6} alt="#" />
-                  <a href="scheme.html"><h3>Schemes</h3></a>
+                  <a href="/Citizenservices/schemes"><h3>Schemes</h3></a>
                   <p>All the schemes provided by the government will be displayed in this section</p>
                </div>
             </div>
             <div className="col-md-4 col-sm-6">
                <div id="ho_color" className="service_box">
                   <img className='w-25 p-3' src={image5} alt="#" />
-                  <a href={image5}><h3>Student Corner</h3></a>
+                  <a href="/Citizenservices/student"><h3>Student Corner</h3></a>
                   <p>All the student certificates provided by the government will be displayed in this section </p>
                </div>
             </div>

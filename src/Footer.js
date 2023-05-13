@@ -17,7 +17,7 @@ function Footer() {
     <div className="row mt-3">
       <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <h6 className="text-uppercase fw-bold mb-4">
-          <i className="fas fa-gem me-3 text-secondary"></i>Company name
+          <i className="fas fa-gem me-3 text-secondary"></i>LPMS
         </h6>
         <p>
           Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -28,19 +28,19 @@ function Footer() {
       <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
         
         <h6 className="text-uppercase fw-bold mb-4">
-          Products
+          Citizen Services
         </h6>
         <p>
-          <a href="/" className="text-reset">Angular</a>
+          <a href="/Citizenservices/Documents" className="text-reset">Documents</a>
         </p>
         <p>
-          <a href="/react" className="text-reset">React</a>
+          <a href="/Citizenservices/Onlineapplication" className="text-reset">Online Application</a>
         </p>
         <p>
-          <a href="/vue" className="text-reset">Vue</a>
+          <a href="/Citizenservices/student" className="text-reset">Student Portal</a>
         </p>
         <p>
-          <a href="/laravel" className="text-reset">Laravel</a>
+          <a href="/Citizenservices/schemes" className="text-reset">Schemes</a>
         </p>
       </div>
      
@@ -50,23 +50,24 @@ function Footer() {
           Useful links
         </h6>
         <p>
-          <a href="/pricing" className="text-reset">Pricing</a>
+          <a href="https://pmjdy.gov.in/" className="text-reset">PM Yojana</a>
         </p>
         <p>
-          <a href="/settings" className="text-reset">Settings</a>
+          <a href="https://www.digitalgujarat.gov.in/" className="text-reset">Digital Gujarat</a>
         </p>
         <p>
-          <a href="/order" className="text-reset">Orders</a>
+          <a href="/sign-in" className="text-reset">Login |</a>
+          <a href="/sign-up" className="text-reset"> SignUp</a>
         </p>
         <p>
-          <a href="/help" className="text-reset">Help</a>
+          <a href="/contactus" className="text-reset">Help</a>
         </p>
       </div>
 
       <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
     
         <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-        <p><i className="fas fa-home me-3 text-secondary"></i> India , IN 384315, IN</p>
+        <p><i className="fas fa-home me-3 text-secondary"></i> India , 384315, IN</p>
         <p>
           <i className="fas fa-envelope me-3 text-secondary"></i>
           info@example.com
@@ -82,7 +83,7 @@ function Footer() {
 
 <div className="text-center p-4" style={{"backgroundColor":"rgba(0, 0, 0, 0.025)"}}>
   © 2023 Copyright:
-  <a className="text-reset fw-bold" href="/">LPMS.com</a>
+  <a className="text-reset fw-bold" href="/"> Local Primary Management System</a>
 </div>
 
 </footer>
